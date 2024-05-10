@@ -1,0 +1,94 @@
+.body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.background3 {
+    background-image: url("resource/carousel5.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: x;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.see:hover {
+    cursor: pointer;
+}
+
+@keyframes x {
+    0% {
+        background-image: url("resource/carousel5.jpeg");
+    }
+    50% {
+        background-image: url("resource/carousel1.jpeg");
+    }
+    80% {
+        background-image: url("resource/carousel3.jpeg");
+    }
+}
+
+.body1 {
+    background-image: url("resource/back4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: "Fred";
+    src: url(font/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Permenant";
+    src: url(font/PermanentMarker-Regular.ttf);
+}
+
+.background1 {
+    background-image: linear-gradient(rgb(237, 237, 183), lightgreen, lightblue);
+}
+
+.background2 {
+    background-image: url("resource/background1.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title1 {
+    font-family: "Permenant";
+}
+
+* {
+    font-family: "Fred";
+}
+
+.product {
+    background-image: url("resource/addproductimg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.product1 {
+    background-image: url("resource/product_img/mob1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.product2 {
+    background-image: url("resource/product_img/mob2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.product3 {
+    background-image: url("resource/product_img/mob3.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
