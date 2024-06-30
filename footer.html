@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <footer class="p-3" style="background-color: rgb(236,202,211);">
+        <div class="col-12">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <img src="resource/icon.png" class="offset-lg-1" style="height: 150px;" />
+                    <div class="col-12 title1 offset-lg-2 fs-2">NEW TECH</div>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="row">
+                        <div class="col-12 text-center text-lg-start text-warning">SOCIAL MEDIA LINKS</div>
+                        <div class="col-1 p-2 offset-lg-0 offset-4"><i class="bi bi-facebook fs-2"></i></div>
+                        <div class="col-1 p-2"><i class="bi bi-whatsapp fs-2"></i></div>
+                        <div class="col-1 p-2"><i class="bi bi-youtube fs-2"></i></div>
+                        <div class="col-1 p-2"><i class="bi bi-twitter fs-2"></i></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="row">
+                        <div class="col-12 text-start text-warning text-center text-lg-start">CONTACT DETAILS</div>
+                        <div class="col-12"><i class="bi bi-house-fill fs-2"></i> 17,Suhada Mawatha, Colombo 7</div>
+                        <div class="col-12"><i class="bi bi-telephone-fill fs-2"></i> 0761231234</div>
+                        <div class="col-12"><i class="bi bi-printer-fill fs-2"></i> 01127897897</div>
+                        <div class="col-12"><i class="bi bi-envelope-fill fs-2"></i> newtech@gmail.com</div>
+                    </div>
+                </div>
+                <hr/>
+                <div class="col-12 text-center pb-2">&copy;All CopyRights Reserved</div>
+                
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="bootstrap.js"></script>
+    <script src="bootstrap.bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
